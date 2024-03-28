@@ -5,6 +5,10 @@
     flex-wrap: wrap;
     
 }
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 #container
 {
     display: flex;
@@ -16,7 +20,9 @@
 {
     display: flex;
 }
-
+.skills{
+    display: flex;
+}
 #section2
 {
     background-color: bisque;
