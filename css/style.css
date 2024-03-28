@@ -1,0 +1,43 @@
+#section1 
+{
+    background-color: rgb(216, 170, 170);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 226, 210);
+    width: 100%;
+}
+#box1
+{
+    display: flex;
+}
+
+#section2
+{
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    flex:2;
+    text-align:left;
+
+}
+#box2{
+    /* display: flex; */
+}
+span{
+    margin-left: 25px;
+}
+li{list-style: none;}
+#section-container{
+    display: flex;
+}
+#section3{
+    background-color: rgb(173, 120, 222);
+    flex:1;
+    li{list-style:disc;}
+}
